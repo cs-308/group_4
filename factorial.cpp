@@ -1,5 +1,5 @@
 #include "functions.h"
-
+#include<bits/stdc++.h>
 int factorial(int n){
     if(n<0)
     {
