@@ -3,13 +3,9 @@
 using namespace std;
 int main(){
     print_hello();
-    cout<< endl;
-    int x;
-    cin>>x;
-    while(x<0)
-    {
-        cin>>x;
-    }
-    cout<<"The factorial of"<<x<<"  is "<< factorial(x)<< endl;
+    int x = 56, y = 98;
+    cout << "gcd of  x and y is : " << gcd(x, y) << endl;
+
+    cout << "The factorial of 5 is : " << factorial(5) << endl;
     return 0;
 }
