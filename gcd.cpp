@@ -2,6 +2,7 @@
 using namespace std;
 
 // function to calculate gcd
+// in resolution step only recursive approach is considered
 int gcd(int n1, int n2)
 {
     // base case
